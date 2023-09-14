@@ -3,6 +3,8 @@
 This model predict the possibility of heart disease from 11 features contained in the dataset.
 
 This data has been obtained from : https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
+
+fedesoriano. (September 2021). Heart Failure Prediction Dataset. Retrieved [Date Retrieved] from https://www.kaggle.com/fedesoriano/heart-failure-prediction.
 """
 
 import numpy as np
@@ -146,4 +148,4 @@ with open(pkl_filename, "rb") as file:
 prediction = new_model.predict(example_data) # Passing in variables for prediction
 print("The result is",prediction)
 
-"""fedesoriano. (September 2021). Heart Failure Prediction Dataset. Retrieved [Date Retrieved] from https://www.kaggle.com/fedesoriano/heart-failure-prediction."""
+
